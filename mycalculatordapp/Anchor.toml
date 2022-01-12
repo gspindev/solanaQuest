@@ -1,0 +1,12 @@
+[programs.localnet]
+mycalculatordapp = "Fgx1smK9QYAa7q7DwivH3UtyZJyahtDryKxbeAQPaa68"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/pgs/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
